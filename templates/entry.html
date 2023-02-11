@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block body %}    
+
+<h2>{{ the_title }}</h2>
+
+<form method="POST" action="/password">
+<table>
+<p>Enter number of characters for password:</p>
+<tr><td>Password length:</td><td><input name="password_length" type="TEXT" width="60"></td></tr>
+</table>
+<p>Submit:</p>
+<p><input value="Submit" type="SUBMIT"></p>
+</form>
+<div>
+    <p>{{ password }}</p>
+</div>
+
+{% endblock %}
