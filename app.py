@@ -27,5 +27,6 @@ def create_password():
         return render_template("entry.html",password=password)
 
 
-app.run()
+app.run(debug=True)
+
         

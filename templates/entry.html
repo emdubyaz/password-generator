@@ -1,3 +1,4 @@
+
 {% extends 'base.html' %}
 
 {% block body %}    
@@ -6,14 +7,13 @@
 
 <form method="POST" action="/password">
 <table>
-<p>Enter number of characters for password:</p>
+<p>Enter number of characters for password/Geben Sie die Anzahl der Zeichen für das Passwort ein:</p>
 <tr><td>Password length:</td><td><input name="password_length" type="TEXT" width="60"></td></tr>
 </table>
-<p>Submit:</p>
 <p><input value="Submit" type="SUBMIT"></p>
 </form>
 <div>
-    <p>{{ password }}</p>
+    <p class="bigstyle">{{ password }}</p>
 </div>
 
 {% endblock %}

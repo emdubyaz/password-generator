@@ -1,72 +1,89 @@
 body {
-    font-family:      Verdana, Geneva, Arial, sans-serif;
-    font-size:        medium;
-    background-color: tan;
-    margin-top:       5%;
-    margin-bottom:    5%;
-    margin-left:      10%;
-    margin-right:     10%;
-    border:           1px dotted gray;
-    padding:          10px 10px 10px 10px;
-  }
-  a {
-    text-decoration:  none; 
-    font-weight:      600; 
-  }
-  a:hover {
-    text-decoration:  underline;
-  }
-  a img {
-    border:           0;
-  }
-  h2 {
-    font-size:        150%;
-  }
-  table {
-    margin-left:      20px;
-    margin-right:     20px;
-    caption-side:     bottom;
-    border-collapse:  collapse;
-  }
-  td, th {
-    padding:          5px;
-    text-align:       left;
-  }
-  .copyright {
-    font-size:        75%;
-    font-style:       italic;
-  }
-  .slogan {
-    font-size:        75%;
-    font-style:       italic;
-  }
-  .confirmentry {
-    font-weight:      600; 
-  }
-  
-  /*** Tables ***/
-  
-  table {
-  font-size:          1em;
-  background-color:   #fafcff;
-  border:             1px solid #909090;
-  color:              #2a2a2a;
-  padding:            5px 5px 2px;
-  border-collapse:    collapse;
-  }
-  
-  td, th {
-  border:             thin dotted gray;
-  }
-  
-  /*** Inputs ***/
-  input[type=text] {
-    font-size:        115%;
-    width:            30em;
-  }
-  input[type=submit] {
-    font-size:        125%;
-  }
-  select {
-    font-size:        125%;
-  }ls
+  font-family:      'Comic Sans MS', cursive, sans-serif;
+  font-size:        medium;
+  background-color: lightcoral;
+  margin-top:       5%;
+  margin-bottom:    5%;
+  margin-left:      10%;
+  margin-right:     10%;
+  border:           1px dotted hotpink;
+  padding:          10px 10px 10px 10px;
+}
+a {
+  text-decoration:  none; 
+  font-weight:      600; 
+  color: hotpink;
+}
+a:hover {
+  text-decoration:  underline;
+}
+a img {
+  border:           0;
+}
+h2 {
+  font-size:        150%;
+  font-family: 'Arial Black', sans-serif;
+  color: orange;
+}
+table {
+  margin-left:      20px;
+  margin-right:     20px;
+  caption-side:     bottom;
+  border-collapse:  collapse;
+}
+td, th {
+  padding:          5px;
+  text-align:       left;
+  font-family: 'Verdana', sans-serif;
+}
+.copyright {
+  font-size:        75%;
+  font-style:       italic;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+.slogan {
+  font-size:        75%;
+  font-style:       italic;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+.confirmentry {
+  font-weight:      600; 
+}
+
+/*** Tables ***/
+
+table {
+font-size:          1em;
+background-color:   #fafcff;
+border:             1px solid hotpink;
+color:              #2a2a2a;
+padding:            5px 5px 2px;
+border-collapse:    collapse;
+}
+
+td, th {
+border:             thin dotted hotpink;
+}
+
+/*** Inputs ***/
+input[type=text] {
+  font-size:        115%;
+  width:            30em;
+  padding: 10px 20px;
+  border: 2px solid hotpink;
+}
+input[type=submit] {
+  font-size:        125%;
+  padding: 10px 20px;
+  border: 2px solid hotpink;
+  background-color: hotpink;
+  color: white;
+}
+select {
+  font-size:        125%;
+}
+
+.bigstyle {
+  font-size: 48px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
